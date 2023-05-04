@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Quiz</title>
     <!-- 0. Create and link your CSS file [consider styling using project CSS to make your quiz similar to your project]-->
-
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -19,11 +19,25 @@
             <!-- 5. Create a div with the id of answer-buttons inside the quiz div [this is the group of possible answers] -->
             <!-- 6. Create buttons inside this div for answer options  inside the answer-buttons div -->
             <!-- 7. Create a button outside of the answers-buttons div (still inside the quiz div) with the id of "next-btn" give it the text "Next" -->
-    
+    <div class="container">
+        <h1>My Simple Quiz</h1>
+        <div class="quiz">
+            <h2 id="questions">Questions Goes Here?</h2>
+
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</buttn>
+                <button class="btn">Answer 2</buttn>
+                <button class="btn">Answer 3</buttn>
+                <button class="btn">Answer 4</buttn>
+            </div>
+
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
 
 
     <!-- 0. Create and link your JavaScript file -->
-
+    <script src="script.js"></script>
 </body>
 
 </html>
