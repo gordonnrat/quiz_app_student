@@ -1,6 +1,6 @@
 :root{
     --body-bg-color: #E9EDC9;
-    --container-bg-color: #FEFAE0;
+    --container-bg-color: whitesmoke;
 }
 
 *{
@@ -53,9 +53,13 @@ h2{
     margin: 20px 0;
 }
 
-.btn:hover{
+.btn:hover:not([disabled]) {
     background: #010101;
     color: whitesmoke;
+}
+
+.btn:hover:disabled{
+    cursor: not-allowed;
 }
 
 .correct{
